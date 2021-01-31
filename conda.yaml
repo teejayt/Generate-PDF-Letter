@@ -1,0 +1,18 @@
+channels:
+  # Define conda channels here. 
+  - defaults
+  - conda-forge
+
+dependencies:
+  # Define conda packages here. 
+  # If available, always prefer the conda version of a package, installation will be faster and more efficient.
+  # https://anaconda.org/search  
+  - python=3.7.5
+  - python-docx=0.8.6   #https://anaconda.org/conda-forge/python-docx
+
+  - pip=20.1
+  - pip:
+    # Define pip packages here. 
+    # https://pypi.org/
+    - rpaframework==7.1.1 # https://rpaframework.org/releasenotes.html
+    - docx2pdf==0.1.7  # https://pypi.org/project/docx2pdf/
